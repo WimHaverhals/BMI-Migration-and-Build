@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_list>
+    <site_version><![CDATA[13.3.0]]></site_version>
+    <each_record>
+        <category>product_line</category>
+        <action>add</action>
+        <segment_var_name><![CDATA[CTL_SA_PoC]]></segment_var_name>
+        <_bm_pline_name><![CDATA[Private Line]]></_bm_pline_name>
+        <_bm_pline_description></_bm_pline_description>
+        <pline_variable><![CDATA[ctlprivateLine]]></pline_variable>
+        <security_></security_>
+        <guid><![CDATA[8ef80ccc-0c31-4289-accd-299d4091a2a0]]></guid>
+    </each_record>
+</record_list>
