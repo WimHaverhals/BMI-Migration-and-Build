@@ -1,0 +1,352 @@
+/* Start Tab Body Properties */
+.tab-table { 
+	font-family: Tahoma; 
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+/* End Tab Body Properties */
+
+/* Start Horizontal Groups Table Spacing Properties */
+.table-spacing-horz {
+	width: 2px;
+}
+/* End Horizontal Groups Spacing Properties */
+
+/* Start Vertical Groups Table Spacing Properties */
+.table-spacing-vert {
+	height: 2px;
+}
+/* End Vertical Groups Spacing Properties */
+
+/* Start Tab Title Properties */
+.tab-title { 
+	font-family: Tahoma; 
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+/* End Tab Title Properties */
+
+/* Start Tab Help-Text Properties */
+.tab-helptext { 
+	font-family: Tahoma; 
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+/* End Tab Help-Text Properties */
+
+/* Start Group Table Properties */
+.group-table {
+	background-color: #FFFFFF;
+	/*border-color: #000000;
+	border-width: 0px;
+	border-style: normal;*/
+	border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 1px;
+}
+/* End Group Table Properties */
+
+/* Start Group Title Properties */
+.group-title {
+	font-family: Tahoma;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 15px 1px 3px;
+}
+/* End Group Title Properties */
+
+/* Start Attribute Label General Properties */
+.attr-label {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;	
+}
+/* End Attribute Label General Properties */
+
+/* Start Required Attribute Label Properties*/
+.reqattr-label {
+	font-family: Tahoma;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+/* End Required Attribute Label Properties*/
+
+/* Start Constraint Message Properties */
+.cons-msg {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+/* End Constraint Message Properties */
+
+/* Start Recommendation Message Properties */
+.rec-msg {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #0000FF;
+	text-decoration: none;
+}
+/* End Recommendation Message Properties */
+
+/* Start Previous Value Message Properties */
+.prev-msg {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #006699;
+	text-decoration: none;
+}
+/* End Previous Value Message Properties */
+/*  --- Configuration Constrained Attribute Options --- */
+.constrainedValue { 
+	font-family: Verdana; 
+	font-size: 8pt; 
+	font-weight: normal;
+	font-style: normal;
+	color: #000000; 
+	text-decoration: none;	
+	background-color: #808080; 
+}
+/*  --- Configuration Normal Attribute Options --- */
+.normalValue { 
+	font-family: Verdana; 
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #093161; 
+	text-decoration: none;	
+	background-color: #FFFFFF; 
+}
+
+/* -- Attribute Image --  */
+.configAttributeImage { 
+	border-width: 0px; 
+	width: 30px;
+	height: 30px; 
+}
+	
+/* Start Attribute Set Table Properties */
+.attr-set-table {
+	background-color: #EEEEEE;
+	border-color: #333333;
+	border-width: 1px;
+	border-style: solid;
+}
+/* End Attribute Set Table Properties */
+
+/* Start set element increment image */
+.set-incr-img {
+	 background-image: url(/img/tree/plus.gif);
+	 border: 0;
+	 cursor: pointer;
+	 width:19px;
+	 height:19px;
+}
+/* End set element increment image */
+
+/* Start set element decrement image */
+.set-decr-img {
+	 background-image: url(/img/tree/minus.gif);
+	 border: 0;
+	 cursor: pointer;
+	 width:19px;
+	 height:19px;
+}
+/* End set element decrement image */
+
+/***** Start image menu section *****/
+
+.cfg-image-menu {
+    position: relative;
+    position: static !ie;
+}
+
+.cfg-ss-dropdown, .cfg-ms-dropdown {
+    zoom: 1;
+}
+
+/* Sets the arrow for dropdowns */
+.cfg-image-menu .cfg-im-value-arrow {
+    background: transparent url(/img/bmx/icons/fugue/control_270.png) no-repeat center right;
+    padding-right: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+/* Forces the value to to take up only the space it needs */
+.cfg-im-value {
+    float: left;
+}
+/* Allows multiple images to sit next to each other in the values section */
+.cfg-im-value .cfg-im-item {
+    float: left;
+}
+
+/* Defines the dropdown section of image dropdown menus */
+.cfg-ss-dropdown .cfg-im-grid,
+.cfg-ms-dropdown .cfg-im-grid,
+.cfg-im-dropdown-copy {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    
+    position: absolute;
+    float: left;
+    clear: both;
+    padding: 10px 20px;
+    z-index: 500;
+}
+
+/* Defines attributes for the possible options common to both the dropdown and the grid styles */
+.cfg-im-grid {
+    overflow-y: auto;
+    overflow-x: hidden;
+    float: left;
+}
+
+.cfg-im-grid td {
+    vertical-align: top;
+}
+/* Attributes for all the possible options */
+.cfg-im-item {
+    text-align: center;
+    padding: 3px;
+    margin: 4px;
+    white-space: normal;
+}
+
+.cfg-im-value .cfg-im-item {
+    margin-bottom: 0;
+}
+
+.cfg-im-value {
+    padding-bottom: 4px;
+}
+
+.cfg-image-menu .cfg-im-item,
+.cfg-im-dropdown-copy .cfg-im-item {
+    cursor: pointer;
+    /* Adds a border of the same width as hover (so the items stay the same size while hovering) */
+    /*   and color as the background (so it's invisible) */ 
+    border: 1px solid #FFFFFF;
+}
+
+.cfg-im-image img {
+    position: relative;
+    top: 50%;
+}
+
+/* Hover style for the options */
+.cfg-im-grid .hover {
+    border: 1px solid #CCCCCC;
+    background-color: FFFFFF;
+    background-image: url();
+}
+
+/* Selected style for the options */
+.cfg-im-grid .selected, .cfg-im-value .selected {
+    border: 1px solid #336699;
+    background-color: FFFFFF;
+    background-image: url();
+}
+
+/*Forced Set style for the options */
+.cfg-image-menu-read-only .selected {
+    border: 1px solid #336699;
+    background-color: FFFFFF;
+    background-image: url();
+}
+
+/* Constrained options style (non-IE) */
+.cfg-image-menu .constrained,
+.cfg-im-dropdown-copy .constrained {
+    opacity: 0.2;
+}
+
+
+/* Constrained options (for IE) */
+.cfg-image-menu .constrained, .cfg-image-menu .constrained img,
+.cfg-im-dropdown-copy .constrained, .cfg-im-dropdown-copy .constrained img {
+    filter: alpha(opacity=20.0);
+}
+
+/* Transparent mask to catch clicks that are not within the dropdown */
+.cfg-im-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 499;
+}
+
+/* Rules for IE to prevent IE from allowing you to click through the mask 
+    by giving it a color, but making it completely transparent */
+* html .cfg-im-mask {
+    filter: alpha(opacity=0);
+    background-color: #FFF;
+}
+
+/* End image menu section */
+
+/* Fix tabs in IE Quirksmode 
+------------------------------------------------------ */
+
+/*.tab-strip a { display: inline-block; } */
+ 
+
+/* Override current clearfix.  The current clearfix doesn't always work in Quirks Mode.
+------------------------------------------------------ */
+
+/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+/*.group-content {
+    padding: 15px 1px 3px;
+}*/
+
+.items-header-wrapper h2 {
+	top: 90%;
+}

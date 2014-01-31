@@ -1,0 +1,1028 @@
+/* Start Tab Body Properties */
+.tab-table { 
+	font-family: Tahoma; 
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+/* End Tab Body Properties */
+
+/* Start Horizontal Groups Table Spacing Properties */
+.table-spacing-horz {
+	width: 2px;
+}
+/* End Horizontal Groups Spacing Properties */
+
+/* Start Vertical Groups Table Spacing Properties */
+.table-spacing-vert {
+	height: 2px;
+}
+/* End Vertical Groups Spacing Properties */
+
+/* Start Tab Title Properties */
+.tab-title { 
+	font-family: Tahoma; 
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+/* End Tab Title Properties */
+
+/* Start Tab Help-Text Properties */
+.tab-helptext { 
+	font-family: Tahoma; 
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+/* End Tab Help-Text Properties */
+
+/* Start Group Table Properties */
+.group-table {
+	background-color: #cee8f0;
+	border-color: #DDDDDD;
+	border-width: 1px;
+	border-style: solid;
+}
+/* End Group Table Properties */
+
+/* Start Group Title Properties */
+.group-title {
+	font-family: Tahoma;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #333333;
+	text-decoration: none;
+}
+/* End Group Title Properties */
+
+/* Start Attribute Label General Properties */
+.attr-label {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;	
+}
+/* End Attribute Label General Properties */
+
+/* Start Required Attribute Label Properties*/
+.reqattr-label {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+/* End Required Attribute Label Properties*/
+
+/* Start Constraint Message Properties */
+.cons-msg {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+/* End Constraint Message Properties */
+
+/* Start Recommendation Message Properties */
+.rec-msg {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #0000FF;
+	text-decoration: none;
+}
+/* End Recommendation Message Properties */
+
+/* Start Previous Value Message Properties */
+.prev-msg {
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #006699;
+	text-decoration: none;
+}
+/* End Previous Value Message Properties */
+/*  --- Configuration Constrained Attribute Options --- */
+.constrainedValue { 
+	font-family: Verdana; 
+	font-size: 8pt; 
+	font-weight: normal;
+	font-style: normal;
+	color: #000000; 
+	text-decoration: none;	
+	background-color: #808080; 
+}
+/*  --- Configuration Normal Attribute Options --- */
+.normalValue { 
+	font-family: Verdana; 
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #333333; 
+	text-decoration: none;	
+	background-color: #FFFFFF; 
+}
+
+/* -- Attribute Image --  */
+.configAttributeImage { 
+	border-width: 0px; 
+	width: 30px;
+	height: 30px; 
+}
+	
+/* Start Attribute Set Table Properties */
+.attr-set-table {
+	background-color: #EEEEEE;
+	border-color: #333333;
+	border-width: 1px;
+	border-style: solid;
+}
+/* End Attribute Set Table Properties */
+
+/* Start set element increment image */
+.set-incr-img {
+	 background-image: url(/img/tree/plus.gif);
+	 border: 0;
+	 cursor: pointer;
+	 width:19px;
+	 height:19px;
+}
+/* End set element increment image */
+
+/* Start set element decrement image */
+.set-decr-img {
+	 background-image: url(/img/tree/minus.gif);
+	 border: 0;
+	 cursor: pointer;
+	 width:19px;
+	 height:19px;
+}
+/* End set element decrement image */
+
+/***** Start image menu section *****/
+
+.cfg-image-menu {
+    position: relative;
+    position: static !ie;
+}
+
+.cfg-ss-dropdown, .cfg-ms-dropdown {
+    zoom: 1;
+}
+
+/* Sets the arrow for dropdowns */
+.cfg-image-menu .cfg-im-value-arrow {
+    background: transparent url(/img/bmx/icons/fugue/control_270.png) no-repeat center right;
+    padding-right: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+/* Forces the value to to take up only the space it needs */
+.cfg-im-value {
+    float: left;
+}
+/* Allows multiple images to sit next to each other in the values section */
+.cfg-im-value .cfg-im-item {
+    float: left;
+}
+
+/* Defines the dropdown section of image dropdown menus */
+.cfg-ss-dropdown .cfg-im-grid,
+.cfg-ms-dropdown .cfg-im-grid,
+.cfg-im-dropdown-copy {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    
+    position: absolute;
+    float: left;
+    clear: both;
+    padding: 10px 20px;
+    z-index: 500;
+}
+
+/* Defines attributes for the possible options common to both the dropdown and the grid styles */
+.cfg-im-grid {
+    overflow-y: auto;
+    overflow-x: hidden;
+    float: left;
+}
+
+.cfg-im-grid td {
+    vertical-align: top;
+}
+/* Attributes for all the possible options */
+.cfg-im-item {
+    text-align: center;
+    padding: 3px;
+    margin: 4px;
+    white-space: normal;
+}
+
+.cfg-im-value .cfg-im-item {
+    margin-bottom: 0;
+}
+
+.cfg-im-value {
+    padding-bottom: 4px;
+}
+
+.cfg-image-menu .cfg-im-item,
+.cfg-im-dropdown-copy .cfg-im-item {
+    cursor: pointer;
+    /* Adds a border of the same width as hover (so the items stay the same size while hovering) */
+    /*   and color as the background (so it's invisible) */ 
+    border: 1px solid #FFFFFF;
+}
+
+.cfg-im-image img {
+    position: relative;
+    top: 50%;
+}
+
+/* Hover style for the options */
+.cfg-im-grid .hover {
+    border: 1px solid #CCCCCC;
+    background-color: FFFFFF;
+    background-image: url();
+}
+
+/* Selected style for the options */
+.cfg-im-grid .selected, .cfg-im-value .selected {
+    border: 1px solid #336699;
+    background-color: FFFFFF;
+    background-image: url();
+}
+
+/*Forced Set style for the options */
+.cfg-image-menu-read-only .selected {
+    border: 1px solid #336699;
+    background-color: FFFFFF;
+    background-image: url();
+}
+
+/* Constrained options style (non-IE) */
+.cfg-image-menu .constrained,
+.cfg-im-dropdown-copy .constrained {
+    opacity: 0.2;
+}
+
+
+/* Constrained options (for IE) */
+.cfg-image-menu .constrained, .cfg-image-menu .constrained img,
+.cfg-im-dropdown-copy .constrained, .cfg-im-dropdown-copy .constrained img {
+    filter: alpha(opacity=20.0);
+}
+
+/* Transparent mask to catch clicks that are not within the dropdown */
+.cfg-im-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 499;
+}
+
+/* Rules for IE to prevent IE from allowing you to click through the mask 
+    by giving it a color, but making it completely transparent */
+* html .cfg-im-mask {
+    filter: alpha(opacity=0);
+    background-color: #FFF;
+}
+
+/* End image menu section */
+
+/*UI changes and additions by Jill Adams */
+
+
+/*headers to dark blue and text to white */
+.view-header, .form-header {
+    background-color: #093161;
+    color: #FFFFFF;
+}
+/*change the body width to static 960px */
+
+div.body-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px !important;
+}
+/*sticky action bar style changes */
+#sticky-actions .floating {
+    background: -moz-linear-gradient(center top , #C2E8F8 0%, rgba(120, 211, 248, 0.3) 100%) repeat scroll 0 0 #093161 !important;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0;
+    text-align: right;
+    width: 100%;
+}
+/*makes items header white */
+.items-header-wrapper h2 {
+    background-image: url("/img/config/arrow-expanded.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 18px;
+    left: 10px;
+    line-height: 18px;
+    margin: -9px 0 0;
+    padding: 0 0 0 18px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+
+/*create quote button aligned to the right*/
+
+#sticky-actions .floating, #sticky-actions .fixed {
+	text-align: right !important;
+}
+/*create quote button to orange  and buttons bigger*/
+.button-invoke-create td.button-middle, .button-invoke-add td.button-middle {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background: url("../../image/images/buttons-on.png") repeat-x;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+}
+td.button-middle {
+    background-color: #000000;
+    border-color: #BBBBBB;
+    border-radius: 4px 4px 4px 4px;
+    padding: 0 0 5px;
+}
+.button-text, .button-text:link, a.button-text:visited:hover, a.button-text:hover {
+    font-size: 10pt;
+
+}
+/*group title to dark blue */
+.group-title {
+    color: #062243;
+    font-family: Tahoma;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#networkZAddressHTML {
+font-size:9pt; padding-left:20px; 
+}
+
+/*Add on section styling */
+
+
+#cfg_group_addOnsGroup .attr-label, #cfg_group_addOnProducts .attr-label, #cfg_group_addOns .attr-label {display:none; }
+#addonProducts_input, #addOnGroup_input, #addOnsGroup_input, #addOns_input {line-height:18pt; white-space:nowrap; }
+.group-content {border: solid 1px #efefef; padding: 0 10px; }
+#cfg_group_addOnsGroup {background: #F9F9F9 !important; white-space:nowrap; }
+#cfg_group_addOns, #cfg_group_addOnProducts, #cfg_group_addOnsGroup {width:230px; background: #F9F9F9 !important; white-space:nowrap; }
+#cfg_group_addOns td[width="3%"], #cfg_group_addOns td[width="2%"]. #cfg_group_addOnProducts td[width="3%"], #cfg_group_addOnProducts td[width="2%"], #cfg_group_addOnsGroup td[width="3%"], #cfg_group_addOnsGroup td[width="2%"]  {display:none; }
+
+
+/*homepage*/
+h2 {font-size: 15pt; color:#555555;}
+.model-summary-wrapper {
+    font-size: 8pt;
+    margin: 5px 0 0;
+    padding: 0 1px;
+    width: 170px;
+}
+
+h3 a {color:steelblue; }
+
+
+/*end homepage */
+.attr-set-table {background:white; border: solid 1px #c7c7c7 }
+.attr-set-table table td tr td{height:35px; }
+.attr-set-table .reqattr-label, .attr-set-table .attr-label {white-space:nowrap; }
+.vertical_value_div {width: 600px !important; padding: 0 10px 10px 10px; }
+
+
+/*Arrays */
+
+/*Array number 1 - connectivity card */
+
+
+.vert_table_connectivityCard td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_connectivityCard tr:nth-child(2){ display: none; }
+.vert_table_connectivityCard tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table {
+    background: #efefef !important;
+    border-color: #d9d9d9 !important;
+    border-style: solid;
+    border-width: 1px;
+}
+td[width="3%"] {width:1px; overflow:visible;}
+td[width="2%"] {width: 1px;}
+td[width="1%"] { width:auto; width:1px; overflow:visible; white-space: nowrap; }
+.table-spacing-horz {width: 2px;}
+.table-spacing-vert {height: 1px;}
+
+.attr-set-table.vert_table_connectivityCard .attr-label { padding-left: 20px; font-weight:normal; } 
+ 
+
+td[width="2%"].attr_ccServerSeries { display:none;}
+td[width="3%"].attr_ccServerSeries { display:none;}
+td[width="2%"].attr_ccModelConfiguration {display:none;}
+td[width="3%"].attr_ccModelConfiguration {display:none;}
+td[width="2%"].attr_ccManufacturer { display:none;}
+td[width="3%"].attr_ccManufacturer { display:none;}
+
+
+/*Array number 2 - Custom Hardware */
+
+.vert_table_customHardware td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_customHardware tr:nth-child(2){ display: none; }
+.vert_table_customHardware tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_customHardware .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_chModel { display:none;}
+td[width="3%"].attr_chModel { display:none;}
+td[width="2%"].attr_chDescription {display:none;}
+td[width="3%"].attr_chDescription {display:none;}
+td[width="2%"].attr_chVendor { display:none;}
+td[width="3%"].attr_chVendor { display:none;}
+
+
+/*array 3 - custom services */
+
+
+.vert_table_customServices td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_customServices tr:nth-child(2){ display: none; }
+.vert_table_customServices tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_customServices .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_cseServiceDescription { display:none; }
+td[width="3%"].attr_cseServiceDescription{ display:none; }
+
+
+/*array 4 - custom software */
+
+
+.vert_table_customSoftware td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_customSoftware tr:nth-child(2){ display: none; }
+.vert_table_customSoftware tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_customSoftware .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_csoVendor { display:none;}
+td[width="3%"].attr_csoVendor { display:none;}
+td[width="2%"].attr_csoProduct {display:none;}
+td[width="3%"].attr_csoProduct {display:none;}
+td[width="2%"].attr_csoDescription { display:none;}
+td[width="3%"].attr_csoDescription { display:none;}
+td[width="2%"].attr_csoLicenseQuantity { display:none;}
+td[width="3%"].attr_csoLicenseQuantity { display:none;}
+
+
+/*array 5 - utility storage */
+
+
+.vert_table_utilityStorage td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_utilityStorage tr:nth-child(2){ display: none; }
+.vert_table_utilityStorage tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_utilityStorage .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_usStorageAmount { display:none;}
+td[width="3%"].attr_usStorageAmount { display:none;}
+td[width="2%"].attr_usQOS {display:none;}
+td[width="3%"].attr_usQOS {display:none;}
+td[width="2%"].attr_chVendor { display:none;}
+td[width="3%"].attr_chVendor { display:none;}
+
+
+/*array 6 - custom ATS - Private IP */
+
+
+.vert_value_div_customATSPrivateIP20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_value_div_customATSPrivateIP20 tr:nth-child(2){ display: none; }
+.vert_value_div_customATSPrivateIP20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_value_div_customATSPrivateIP20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_capriInteractiveCIRMbps { display:none;}
+td[width="3%"].attr_capriInteractiveCIRMbps { display:none;}
+td[width="2%"].attr_capriRealtimeCIRMbps {display:none;}
+td[width="3%"].attr_capriRealtimeCIRMbps {display:none;}
+td[width="2%"].attr_capriNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_capriNetworkBasedFirewall { display:none;}
+
+/*array 7 - Custom ATS - Private IP + Internet  */
+
+
+.vert_table_customATSPrivateIPInternet20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_customATSPrivateIPInternet20 tr:nth-child(2){ display: none; }
+.vert_table_customATSPrivateIPInternet20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_customATSPrivateIPInternet20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_capriiInteractiveCIRMbps { display:none;}
+td[width="3%"].attr_capriiInteractiveCIRMbps { display:none;}
+td[width="2%"].attr_capriiRealtimeCIRMbps {display:none;}
+td[width="3%"].attr_capriiRealtimeCIRMbps {display:none;}
+td[width="2%"].attr_capriiNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_capriiNetworkBasedFirewall { display:none;}
+
+
+/*array 8 - Market Data Connectivity 1.0 */
+
+
+.vert_table_marketDataConnectivity10 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_marketDataConnectivity10 tr:nth-child(2){ display: none; }
+.vert_table_marketDataConnectivity10 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_marketDataConnectivity10 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_mdcExchange { display:none;}
+td[width="3%"].attr_mdcExchange { display:none;}
+td[width="2%"].attr_mdcZSiteCountry {display:none;}
+td[width="3%"].attr_mdcZSiteCountry {display:none;}
+
+
+/*array 9 - Trading Network Connectivity 1.0 */
+
+
+.vert_table_tradingNetworkConnectivity10 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_tradingNetworkConnectivity10 tr:nth-child(2){ display: none; }
+.vert_table_tradingNetworkConnectivity10 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_tradingNetworkConnectivity10 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_tncTradingNetworkConnectivityCIR { display:none;}
+td[width="3%"].attr_tncTradingNetworkConnectivityCIR { display:none;}
+
+
+/* array 10 - Offsite Dedicated Tape Archive  */
+
+.vert_table_offsiteDedicatedTapeArchive td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_offsiteDedicatedTapeArchive tr:nth-child(2){ display: none; }
+.vert_table_offsiteDedicatedTapeArchive tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_offsiteDedicatedTapeArchive .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_odtaArchiveFrequency { display:none;}
+td[width="3%"].attr_odtaArchiveFrequency { display:none;}
+td[width="2%"].attr_odtaArchiveRetention {display:none;}
+td[width="3%"].attr_odtaArchiveRetention {display:none;}
+td[width="2%"].attr_odtaAmountArchivedPerFrequencyGBs { display:none;}
+td[width="3%"].attr_odtaAmountArchivedPerFrequencyGBs { display:none;}
+
+
+/* array 11 - Offsite Tape Archive  */
+
+.vert_table_offsiteTapeArchive td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_offsiteTapeArchive tr:nth-child(2){ display: none; }
+.vert_table_offsiteTapeArchive tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_offsiteTapeArchive .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_otaArchiveFrequency { display:none;}
+td[width="3%"].attr_otaArchiveFrequency { display:none;}
+td[width="2%"].attr_otaArchiveRetention {display:none;}
+td[width="3%"].attr_otaArchiveRetention {display:none;}
+td[width="2%"].attr_otaAmountArchivedPerFrequencyGBs { display:none;}
+td[width="3%"].attr_otaAmountArchivedPerFrequencyGBs { display:none;}
+
+
+/* array 12 - Tape Escrow  */
+
+.vert_table_tapeEscrow td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_tapeEscrow tr:nth-child(2){ display: none; }
+.vert_table_tapeEscrow tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_tapeEscrow .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_teAmountOfDataOnTape { display:none;}
+td[width="3%"].attr_teAmountOfDataOnTape { display:none;}
+td[width="2%"].attr_tefrequency {display:none;}
+td[width="3%"].attr_tefrequency {display:none;}
+
+/*array 13 - custom ATS - Private IP */
+
+
+.vert_value_div_customATSPrivateIP20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_value_div_customATSPrivateIP20 tr:nth-child(2){ display: none; }
+.vert_value_div_customATSPrivateIP20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_value_div_customATSPrivateIP20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_capriInteractiveCIRMbps { display:none;}
+td[width="3%"].attr_capriInteractiveCIRMbps { display:none;}
+td[width="2%"].attr_capriRealtimeCIRMbps {display:none;}
+td[width="3%"].attr_capriRealtimeCIRMbps {display:none;}
+td[width="2%"].attr_capriNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_capriNetworkBasedFirewall { display:none;}
+
+/*array 14 - Custom ATS - Private IP + Internet  */
+
+
+.vert_table_customATSPrivateIPInternet20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_customATSPrivateIPInternet20 tr:nth-child(2){ display: none; }
+.vert_table_customATSPrivateIPInternet20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_customATSPrivateIPInternet20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_capriiInteractiveCIRMbps { display:none;}
+td[width="3%"].attr_capriiInteractiveCIRMbps { display:none;}
+td[width="2%"].attr_capriiRealtimeCIRMbps {display:none;}
+td[width="3%"].attr_capriiRealtimeCIRMbps {display:none;}
+td[width="2%"].attr_capriiNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_capriiNetworkBasedFirewall { display:none;}
+
+
+/*array 15 - Market Data Connectivity 1.0 */
+
+
+.vert_table_marketDataConnectivity10 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_marketDataConnectivity10 tr:nth-child(2){ display: none; }
+.vert_table_marketDataConnectivity10 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_marketDataConnectivity10 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_mdcExchange { display:none;}
+td[width="3%"].attr_mdcExchange { display:none;}
+td[width="2%"].attr_mdcZSiteCountry {display:none;}
+td[width="3%"].attr_mdcZSiteCountry {display:none;}
+
+
+/*array 16 - Trading Network Connectivity 1.0 */
+
+
+.vert_table_tradingNetworkConnectivity10 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_tradingNetworkConnectivity10 tr:nth-child(2){ display: none; }
+.vert_table_tradingNetworkConnectivity10 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_tradingNetworkConnectivity10 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_tncTradingNetworkConnectivityCIR { display:none;}
+td[width="3%"].attr_tncTradingNetworkConnectivityCIR { display:none;}
+
+
+/*array 17 - ATS - Private IP + Internet */
+
+
+.vert_table_aTSPrivateIPInternet20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 2px; }
+.vert_table_aTSPrivateIPInternet20 tr:nth-child(2){ display: none; }
+.vert_table_aTSPrivateIPInternet20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_aTSPrivateIPInternet20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_apriiRealtimeCIRMbps { display:none;}
+td[width="3%"].attr_apriiRealtimeCIRMbps { display:none;}
+td[width="2%"].attr_apriiNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_apriiNetworkBasedFirewall { display:none;}
+
+/*array 18 - ATS - Private IP */
+
+.vert_table_aTSPrivateIP20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 2px; }
+.vert_table_aTSPrivateIP20 tr:nth-child(2){ display: none; }
+.vert_table_aTSPrivateIP20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_aTSPrivateIP20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_apriInteractiveCIRMbps { display:none;}
+td[width="3%"].attr_apriInteractiveCIRMbps { display:none;}
+td[width="2%"].attr_apriRealtimeCIRMbps { display:none;}
+td[width="3%"].attr_apriRealtimeCIRMbps { display:none;}
+td[width="2%"].attr_apriNetworkBasedFirewall {display:none; }
+td[width="3%"].attr_apriNetworkBasedFirewall {display:none; }
+td[width="2%"].attr_apriiInteractiveCIRMbps {display: none; }
+td[width="3%"].attr_apriiInteractiveCIRMbps {display:none; }
+
+
+/*array 19 - ATS - Public IP */
+
+.vert_table_atsPublicIP20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 2px; }
+.vert_table_atsPublicIP20 tr:nth-child(2){ display: none; }
+.vert_table_atsPublicIP20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_atsPublicIP20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_apuiNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_apuiNetworkBasedFirewall { display:none;}
+
+/*array 20 - TR VLAN Access */
+
+.vert_table_trVLANAccess td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_trVLANAccess tr:nth-child(2){ display: none; }
+.vert_table_trVLANAccess tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_trVLANAccess .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_tvaTREnvironment { display:none;}
+td[width="3%"].attr_tvaTREnvironment { display:none;}
+td[width="2%"].attr_tvaScenario { display:none;}
+td[width="3%"].attr_tvaScenario { display:none;}
+
+/*array 21 - TR Virtual Routing Service */
+
+.vert_table_trVirtualRoutingService td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_trVirtualRoutingService tr:nth-child(2){ display: none; }
+.vert_table_trVirtualRoutingService tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_trVirtualRoutingService .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_tvrsTREnvironment { display:none;}
+td[width="3%"].attr_tvrsTREnvironment { display:none;}
+td[width="2%"].attr_tvrsScenario { display:none;}
+td[width="3%"].attr_tvrsScenario { display:none;}
+
+/*array 22 - Custom ATS - Private IP */
+
+.vert_table_customATSPrivateIP20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 1px; }
+.vert_table_customATSPrivateIP20 tr:nth-child(2){ display: none; }
+.vert_table_customATSPrivateIP20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_customATSPrivateIP20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_capriInteractiveCIRMbps { display:none;}
+td[width="3%"].attr_capriInteractiveCIRMbps { display:none;}
+td[width="2%"].attr_capriRealtimeCIRMbps { display:none;}
+td[width="3%"].attr_capriRealtimeCIRMbps { display:none;}
+td[width="2%"].attr_capriNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_capriNetworkBasedFirewall { display:none;}
+
+#vert_value_div_customATSPrivateIPInternet20 .attr-label, #vert_value_div_customATSPrivateIPInternet20 .reqattr-label, #vert_value_div_customATSPrivateIP20 .attr-label, #vert_value_div_customATSPrivateIP20 .reqattr-label {white-space:normal; }
+
+/*array 23 - Custom ATS - Pulbic IP */
+
+.vert_table_customATSPublicIP20 td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_customATSPublicIP20 tr:nth-child(2){ display: none; }
+.vert_table_customATSPublicIP20 tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_customATSPublicIP20 .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_capuiNetworkBasedFirewall { display:none;}
+td[width="3%"].attr_capuiNetworkBasedFirewall { display:none;}
+
+/*arry 24 - Colocation Patch Panel */
+
+.vert_table_colocationPatchPanel td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_colocationPatchPanel tr:nth-child(2){ display: none; }
+.vert_table_colocationPatchPanel tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_colocationPatchPanel .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_cppPatchPanelType { display:none;}
+td[width="3%"].attr_cppPatchPanelType { display:none;}
+td[width="2%"].attr_cppQuantity { display:none;}
+td[width="3%"].attr_cppQuantity { display:none;}
+
+
+/*arry 25 - Colocation Physical Security */
+
+.vert_table_colocationPhysicalSecurity td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_colocationPhysicalSecurity tr:nth-child(2){ display: none; }
+.vert_table_colocationPhysicalSecurity tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_colocationPhysicalSecurity .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_cpsReaderType { display:none;}
+td[width="3%"].attr_cpsReaderType { display:none;}
+td[width="2%"].attr_cpsDoorType { display:none;}
+td[width="3%"].attr_cpsDoorType { display:none;}
+td[width="2%"].attr_cpsContacts { display:none;}
+td[width="3%"].attr_cpsContacts { display:none;}
+td[width="2%"].attr_cpsReporting { display:none;}
+td[width="3%"].attr_cpsReporting { display:none;}
+
+/*arry 26 - Colocation Power Distrubution */
+
+.vert_table_colocationPowerDistribution td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 0px; }
+.vert_table_colocationPowerDistribution tr:nth-child(2){ display: none; }
+.vert_table_colocationPowerDistribution tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_colocationPowerDistribution .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_cpdPowerConfiguration { display:none;}
+td[width="3%"].attr_cpdPowerConfiguration { display:none;}
+td[width="2%"].attr_cpdPowerCircuit { display:none;}
+td[width="3%"].attr_cpdPowerCircuit { display:none;}
+td[width="2%"].attr_cpdQuantity { display:none;}
+td[width="3%"].attr_cpdQuantity { display:none;}
+
+
+/*arry 27 - Colocation Power Strip */
+
+.vert_table_colocationPowerStrip td { /*border-bottom: solid 1px rgba(0,0,0,.15); */ padding: 8px 5px; }
+.vert_table_colocationPowerStrip tr:nth-child(2){ display: none; }
+.vert_table_colocationPowerStrip tr:nth-child(2n) { background: rgba(255,255,255,.5); }
+
+.attr-set-table.vert_table_colocationPowerStrip .attr-label { padding-left: 20px; font-weight:normal; } 
+
+td[width="2%"].attr_cpwsPowerStripType { display:none;}
+td[width="3%"].attr_cpwsPowerStripType { display:none;}
+td[width="2%"].attr_cpwsQuantity { display:none;}
+td[width="3%"].attr_cpwsQuantity { display:none;}
+
+/*version 12 updates */
+
+.group-header {
+    background: url("../../image/images/light-group-table-background.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #EFEFEF;
+    margin: 6px 0 4px;
+	font-size: 12pt;
+    font-weight: bold;
+}
+#pipeline-viewer-opener {
+    background-color: #2F8CAB;
+    padding: 2px 4px 0;
+    text-align: right;
+}
+#pipeline-viewer-opener a {
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 8pt;
+    font-weight: bold;
+}
+.tab-strip .tab-active a.tab-left, .tab-strip .tab-active a.tab-left .tab-inner {
+    background-color: #2F8CAB;
+    cursor: default;
+}
+.tab-strip .tab-active a.tab-left:hover { background-color: #2F8CAB; }
+.tab-strip .tab-active a.tab-left:hover .tab-text {
+    color: #FFFFFF;
+}
+.tab-strip .tab-text {
+    padding: 5px 0 0;
+}
+.tab-strip {    border-bottom: 0px solid #2F8CAB;
+
+}
+td.button-middle {
+    background-color: #000000;
+    border-color: #BBBBBB;
+    border-radius: 4px 4px 4px 4px;
+    padding: 7px 0 0 5px;
+}
+#tab-addOns-content .column-0{ float:left; width:230px;}
+#tab-addOns-content .column-1{ float:right; width:660px;}
+
+/*
+#group-49671950 .group-header, #group-49690880 .group-header, #group-49779601 .group-header {background:  #F9F9F9 !important; font-size: 12pt; font-weight: bold;  border: 0px solid #EFEFEF; white-space:nowrap; }
+#group-49671950, #group-49690880, #group-49779601 {width: 230px;  background: #F9F9F9 !important; white-space:nowrap; }
+*/
+
+#group-49671950, #group-49690880, #group-49779601, #group-49786980, #group-49653163, #group-49749173, #group-49661711,
+#group-49758615, #group-49729010, #group-49730206, #group-49715644, #group-49682955, #group-49648408, #group-49723333,
+#group-49738030, #group-49680373, #group-68164595, #group-111059434, #group-49705020, #group-49741444 ,#group-49727546, 
+#group-49748040 {width: 230px;}
+
+#tab-addOns-content .group-inner .row .column-0{ float:none; width:100%;}
+
+.array {
+    border: 1px solid #DDDDDD;
+    border-collapse: separate;
+    width: 100%;
+}
+.array thead th {
+    background-color: #EEEEEE;
+    border-color: #DDDDDD;
+}
+
+.array td, .array th {  padding: 9px 7px; }
+.array .even td, .array .even th {
+    background-color: #F9F9F9;
+}
+
+.constraint-message, .tab-constraint {
+    background: url("../../image/images/red-arrow.png") no-repeat scroll left center transparent;
+    font-family: Tahoma;
+    font-size: 8pt;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 12pt;
+    margin-left: 0;
+    padding-left: 10px !important;
+    text-decoration: none;
+	color:red;
+}
+.view-text, .form-input, .form-input select, .form-input-modified, .form-input-selected, .form-input-mouseover, .form-item input, .form-item select, .form-item textarea, .form-item .menu-attr label, .attribute-field, .cfg-image-menu {
+    color: #333333;
+    font-family: Verdana;
+    font-size: 8pt;
+    font-weight: normal;
+    width: 100%;
+}
+.view-header, .form-header {
+    background-color: #2F8CAB;
+    color: #FFFFFF;
+}
+#sticky-actions .floating {
+    background: url("../../image/images/sticky.png") repeat-x scroll 0 0 transparent !important;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15) !important;
+	padding: 3px 0;
+}
+#attribute-addonProducts {background:#f9f9f9; }
+.tab-text {padding-top:4px; }
+
+td.button-middle {
+    background: url("../../image/images/buttons.png") 
+}
+.tab-strip .tab-active .tab-text {
+    line-height: 18pt;
+}
+.tab-strip .tab-active a.tab-left, .tab-strip .tab-active a.tab-left .tab-inner, .tab-strip .tab-active a.tab-left:hover, .tab-active a.tab-left:hover .tab-inner {
+    background: url("../../image/images/tabs.png") repeat-x scroll 0 0 transparent;
+    cursor: default;
+    padding-top: 0;
+}
+td.button-middle, .plain-button td.button-middle {
+    border: 1px solid #C7C7C7 !important;
+}
+
+
+
+/*IF IE8 for Savvis - january 17, 2012 changes to buttons */
+.button-text {top:3px\0/;
+ }
+
+.button-left, .plain-button .button-left {
+	display:table-cell\0/;
+    background: url("../../image/images/buttons-left.png") 5px 6px\0/ !important;
+	background-repeat: no-repeat\0/ !important;
+	width: 8px\0/;
+
+}
+.button-right, .plain-button .button-right {
+	display:table-cell\0/;
+    background: url("../../image/images/buttons-right.png") 0px 6px\0/ !important; 
+	background-repeat: no-repeat\0/ !important; 
+	width: 4px\0/;
+
+}
+td.button-middle, .plain-button td.button-middle {
+    background: url("../../image/images/button3.png") 0px 6px repeat-x\0/;
+    border: none\0/ !important;
+    border-radius: 0px\0/ 0px\0/ 0px\0/ 0px\0/;
+    padding: 7px\0/ 0\0/ 0\0/ 5px\0/;
+	height: 28px\0/;
+}
+/*create quote button to orange  and buttons bigger*/
+.button-invoke-create td.button-middle, .button-invoke-add td.button-middle {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background: url("../../image/images/quote-button.png") repeat-x 0px 6px\0/ !important;
+
+}
+
+.button-invoke-create .button-left, .button-invoke-add .button-left {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background: url("../../image/images/quote-button-left.png") no-repeat 5px 6px\0/ !important;
+
+}
+.button-invoke-create .button-right, .button-invoke-add .button-right {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background: url("../../image/images/quote-button-right.png") no-repeat 0px 6px\0/ !important;
+
+}
+#sticky-actions table {margin-top:-5px\0/ !important; margin-right: -7px\0/ !important; }
+
+
+/*END - IF IE8 for Savvis - january 17, 2012 changes to buttons */
+
+/*IF IE8 for Savvis - january 17, 2012 changes to tabs */
+.tab-strip .tab-active .tab-left {
+    background: url("/img/gxt/rounded_gradient-tab-right.png") no-repeat scroll 0 0 #2F8CAB\0/ !important;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.tab-strip .tab-active .tab-inner {
+    background: url("/img/gxt/rounded_gradient-tab-inner.png") repeat-x scroll 0 0 #2F8CAB\0/ !important;
+}
+.tab-strip .tab-active .tab-right {
+    background: url("/img/gxt/rounded_gradient-tab-left.png") no-repeat scroll right 0 transparent\0/ !important;
+    padding-right: 10px;
+}
+
+.tab-strip .tab-active .tab-text {padding-top:0px\0/ !important; }
+
+.header-bordercolor {border-bottom: solid 1px #dbdbdb !important; }
+td.nav-right{border-bottom:solid 1px #dbdbdb\0/ !important;
+/*END - IF IE8 for Savvis - january 17, 2012 changes to tabs */
