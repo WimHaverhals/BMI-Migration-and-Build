@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><record_list>
-    <site_version><![CDATA[13.3.0]]></site_version>
-    <each_record>
-        <category>CATALOG</category>
-        <action>modify</action>
-        <folder_identifier><![CDATA[ctlFamilyMigration]]></folder_identifier>
-    </each_record>
-</record_list>
